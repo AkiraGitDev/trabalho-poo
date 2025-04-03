@@ -39,13 +39,26 @@ function RootLayoutNav() {
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
-        <Stack.Screen name="home" options={{ headerShown: false }} />
-        <Stack.Screen name="login" options={{ headerShown: true }} />
+        <Stack.Screen name="index" options={{ headerShown: false }} />
         <Stack.Screen 
           name="cadastro" 
           options={{ 
             headerShown: true,
             title: "Cadastro de Paciente"
+          }} 
+        />
+        <Stack.Screen 
+          name="avaliacao" 
+          options={{ 
+            headerShown: true,
+            title: "Avaliação da Consulta"
+          }} 
+        />
+        <Stack.Screen 
+          name="finalizacao" 
+          options={{ 
+            headerShown: true,
+            title: "Finalização"
           }} 
         />
         <Stack.Screen name="+not-found" options={{ headerShown: false }} />

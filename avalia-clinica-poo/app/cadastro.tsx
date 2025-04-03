@@ -17,7 +17,7 @@ export default function Cadastro() {
 
   const handleCadastro = () => {
     // Handle form submission here
-    router.push('/finalizacao');
+    router.push('/avaliacao');  // Changed from '/fimDeCadastro' to '/avaliacao'
   };
 
   return (

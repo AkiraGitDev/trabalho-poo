@@ -11,12 +11,7 @@ export default function Home() {
           <Text style={styles.buttonText}>Realizar Cadastro</Text>
         </TouchableOpacity>
       </Link>
-
-      <Link href="/login" asChild>
-        <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>Login</Text>
-        </TouchableOpacity>
-      </Link>
+      
     </View>
   );
 }
