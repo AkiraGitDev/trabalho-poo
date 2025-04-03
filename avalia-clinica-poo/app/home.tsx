@@ -6,7 +6,7 @@ export default function Home() {
     <View style={styles.container}>
       <Text style={styles.title}>NomeApp</Text>
       
-      <Link href="/cadastrarPaciente" asChild>
+      <Link href="/cadastro" asChild>
         <TouchableOpacity style={styles.button}>
           <Text style={styles.buttonText}>Realizar Cadastro</Text>
         </TouchableOpacity>

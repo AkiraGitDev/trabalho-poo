@@ -41,7 +41,13 @@ function RootLayoutNav() {
       <Stack>
         <Stack.Screen name="home" options={{ headerShown: false }} />
         <Stack.Screen name="login" options={{ headerShown: true }} />
-        <Stack.Screen name="cadastrarPaciente" options={{ headerShown: true }} />
+        <Stack.Screen 
+          name="cadastro" 
+          options={{ 
+            headerShown: true,
+            title: "Cadastro de Paciente"
+          }} 
+        />
         <Stack.Screen name="+not-found" options={{ headerShown: false }} />
       </Stack>
     </ThemeProvider>
